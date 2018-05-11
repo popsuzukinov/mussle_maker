@@ -8,6 +8,9 @@
 out
 gen
 
+__pycache__
+.DS_Store
+
 venv
 Include
 Lib
