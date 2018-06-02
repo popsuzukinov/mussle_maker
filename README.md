@@ -9,7 +9,7 @@
 
 ### マイグレーション実施
 ```
-$ python manage.py makemigrations mussle_core --settings=mussle_maker.local_setting
+$ python manage.py makemigrations mussle_core --settings=mussle_maker.local_settings
 ```
 ```
 $ python manage.py migrate mussle_core --settings=mussle_maker.local_settings
