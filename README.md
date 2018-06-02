@@ -12,5 +12,5 @@
 $ python manage.py makemigrations mussle_core --settings=mussle_maker.local_setting
 ```
 ```
-$ python jdv_sats_web/manage.py makemigrations sats_core --settings=jdv_sats_web.local_settings
+$ python manage.py migrate mussle_core --settings=mussle_maker.local_settings
 ```
